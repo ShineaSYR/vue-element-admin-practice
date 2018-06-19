@@ -1,5 +1,5 @@
 # vue-element-admin-practice
-使用了vue、vuex、vue-router and element-ui
+使用了vue、vuex、vue-router and element-ui    
 备注：该项目是在别人的项目基础上修改的，十分感谢原项目（[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)）
 
 
@@ -75,43 +75,43 @@
 
 ## 功能
 ```
-- 登录/注销
-- 权限验证
-- 多环境发布
-- 动态侧边栏（支持多级路由）
-- 动态面包屑
-- 国际化多语言
-- 多种动态换肤
-- 快捷导航(标签页)
-- 富文本编辑器
-- Markdown编辑器
-- JSON编辑器
-- Screenfull全屏
-- 列表拖拽
-- Svg Sprite 图标
-- Dashboard
-- 引导页
-- 本地mock数据
-- Echarts 图表
-- Clipboard(剪贴复制)
-- 401/404错误页面
-- 错误日志
-- 导出excel
-- 导出zip
-- 前端可视化excel
-- 树形table
-- Table example
-- 动态table example
-- 拖拽table example
-- 内联编辑table example
-- Form example
-- 二步登录
-- SplitPane
-- 拖拽 Dialog
-- Dropzone
-- Sticky
-- CountTo
-- Markdown2html
+- [x] 登录/注销
+- [x] 权限验证
+- [x] 多环境发布
+- [x] 动态侧边栏（支持多级路由）
+- [x] 动态面包屑
+- [x] 国际化多语言
+- [x] 多种动态换肤
+- [x] 快捷导航(标签页)
+- [x] 富文本编辑器
+- [x] Markdown编辑器
+- [x] JSON编辑器
+- [x] Screenfull全屏
+- [x] 列表拖拽
+- [x] Svg Sprite 图标
+- [x] Dashboard
+- [x] 引导页
+- [x] 本地mock数据
+- [x] Echarts 图表
+- [x] Clipboard(剪贴复制)
+- [x] 401/404错误页面
+- [x] 错误日志
+- [x] 导出excel
+- [x] 导出zip
+- [x] 前端可视化excel
+- [x] 树形table
+- [x] Table example
+- [x] 动态table example
+- [x] 拖拽table example
+- [x] 内联编辑table example
+- [x] Form example
+- [x] 二步登录
+- [x] SplitPane
+- [x] 拖拽 Dialog
+- [x] Dropzone
+- [x] Sticky
+- [x] CountTo
+- [x] Markdown2html
 ```
 
 ## 开发
@@ -156,11 +156,7 @@ npm run lint -- --fix
 
 更多信息请参考 [使用文档](https://panjiachen.github.io/vue-element-admin-site/#/zh-cn/deploy)
 
-## Changelog
-Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
 
-## Online Demo
-[在线 Demo](http://panjiachen.github.io/vue-element-admin)
 
 
 
