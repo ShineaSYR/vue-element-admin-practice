@@ -80,12 +80,12 @@ export default {
     border-color: rgba(0, 0, 0, .05);
     &:hover {
       .card-panel-icon-wrapper {
-        color: #fff;
-        // color: red;
+        // color: #fff;
+        color: red;
       }
       .icon-people {
-         background: #40c9c6;
-        // background: yellow;
+        //  background: #40c9c6;
+        background: yellow;
       }
       .icon-message {
         background: #36a3f7;

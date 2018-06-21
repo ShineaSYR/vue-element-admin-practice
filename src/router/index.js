@@ -41,16 +41,40 @@ export const constantRouterMap = [
       meta: { title: 'dashboard', icon: 'dashboard', noCache: true }
     }]
   },
+  // {
+  //   path: '/documentation',
+  //   component: Layout,
+  //   redirect: '/documentation/index',
+  //   // alwaysShow: true, // will always show the root menu
+  //   meta: {
+  //     title: 'documentation',
+  //     icon: 'documentation'
+  //   },
+  //   children: [{
+  //     path: 'index',
+  //     component: () => import('@/views/documentation/documentation'),
+  //     name: 'documentation',
+  //     meta: { title: 'documentation', icon: 'documentation', noCache: true }
+  //   }, {
+  //     path: 'info',
+  //     component: () => import('@/views/documentation/info'),
+  //     name: 'info',
+  //     meta: { title: 'info', icon: 'dashboard', noCache: false }
+  //   }]
+  // },
   {
     path: '/documentation',
     component: Layout,
     redirect: '/documentation/index',
-    children: [{
-      path: 'index',
-      component: () => import('@/views/documentation/index'),
-      name: 'documentation',
-      meta: { title: 'documentation', icon: 'documentation', noCache: true }
-    }]
+    name: 'documentation',
+    meta: {
+      title: 'documentation',
+      icon: 'documentation'
+    },
+    children: [
+      { path: 'index', component: () => import('@/views/documentation/index'), name: 'pageindex', meta: { title: '文档', icon: 'documentation', noCache: true }},
+      { path: 'info', component: () => import('@/views/documentation/info'), name: 'pageinfo', meta: { title: '信息', icon: 'dashboard', noCache: true }}
+    ]
   },
   {
     path: '/guide',

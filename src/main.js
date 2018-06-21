@@ -11,7 +11,7 @@ import App from './App'
 import router from './router'
 import store from './store'
 
-import i18n from './lang' // Internationalization
+import i18n from './lang' // Internationalization 国际化-移除
 import './icons' // icon
 import './errorLog'// error log
 import './permission' // permission control
